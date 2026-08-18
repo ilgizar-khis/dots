@@ -21,7 +21,14 @@ set $menu rofi -show drun
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+output HDMI-A-1 {
+	bg $HOME/.swaybg/HDMI-A-1.jpg fill
+}
+
+output eDP-1 {
+	bg $HOME/.swaybg/eDP-1.jpg fill
+	scale 1.2
+}
 #
 # Example configuration:
 #
