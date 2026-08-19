@@ -50,8 +50,8 @@ input type:keyboard {
 
 for_window [app_id="kitty"] title_format "%app_id : %title"
 
-exec_always $HOME/.config/waybar/run.sh
-exec_always $HOME/.config/mako/kb_layout.sh
+exec_always --no-startup-id $HOME/.config/waybar/run.sh
+exec_always --no-startup-id $HOME/.config/mako/kb_layout.sh
 
 include $HOME/.config/sway/config.d/binds.conf
 include $HOME/.config/sway/config.d/look.conf
