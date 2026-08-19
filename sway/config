@@ -54,5 +54,6 @@ exec_always $HOME/.config/mako/kb_layout.sh
 include $HOME/.config/sway/config.d/binds.conf
 include $HOME/.config/sway/config.d/look.conf
 include $HOME/.config/sway/config.d/ws.conf
+include $HOME/.config/sway/config.d/swayfx.conf
 
 include /etc/sway/config.d/*
