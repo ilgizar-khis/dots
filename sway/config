@@ -49,6 +49,7 @@ input type:keyboard {
 }
 
 exec_always $HOME/.config/waybar/run.sh
+exec_always $HOME/.config/mako/kb_layout.sh
 
 include $HOME/.config/sway/config.d/binds.conf
 include $HOME/.config/sway/config.d/look.conf
