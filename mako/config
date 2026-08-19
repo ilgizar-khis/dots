@@ -1,0 +1,12 @@
+background-color=#000000cc
+text-color=#ffffff
+border-size=4
+border-color=#ff6767
+font="Ubuntu Mono 14"
+outer-margin=10,100
+anchor=top-right
+default-timeout=3000
+on-button-left=dismiss
+on-button-right=invoke-default-action
+on-button-middle=exec makoctl menu -n "$id" -- rofi -dmenu -p 'Select action'
+actions=1
