@@ -245,6 +245,7 @@ bindsym $mod+r mode "resize"
 #         inactive_workspace #32323200 #32323200 #5c5c5c
 #     }
 # }
+exec_always $HOME/.config/waybar/run.sh
 
 include $HOME/.config/sway/config.d/look.conf
 
