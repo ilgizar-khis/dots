@@ -1,5 +1,11 @@
 #!/usr/bin/bash
 
+name="$(basename $0)"
+count=$(pgrep -c $name)
+if [[ "$count" > "2" ]]; then
+	exit 0
+fi
+
 old_layout=""
 not_id=0
 
