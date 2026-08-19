@@ -54,9 +54,9 @@
         "format": "{}"
     },
     "sway/scratchpad": {
-        "format": "{icon} {count}",
-        "show-empty": false,
-        "format-icons": ["", ""],
+        "format": "{icon}  {count}",
+        "show-empty": true,
+        "format-icons": [""],
         "tooltip": true,
         "tooltip-format": "{app}: {title}"
     },
