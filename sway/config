@@ -246,4 +246,6 @@ bar {
     }
 }
 
+include $HOME/.config/sway/config.d/look.conf
+
 include /etc/sway/config.d/*
