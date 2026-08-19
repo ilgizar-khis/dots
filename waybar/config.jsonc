@@ -70,7 +70,8 @@
     "clock": {
         // "timezone": "America/New_York",
         "tooltip-format": "<tt><big>{calendar}</big></tt>",
-        "format": "{:%d %B %Y %H:%M:%S}"
+        "format": "{:%d %B %Y %H:%M:%S}",
+		"interval": 1
     },
     "battery": {
         "states": {
