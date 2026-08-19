@@ -51,7 +51,7 @@
 		}
     },
     "sway/mode": {
-        "format": "<span style=\"italic\">{}</span>"
+        "format": "{}"
     },
     "sway/scratchpad": {
         "format": "{icon} {count}",
