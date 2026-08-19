@@ -144,11 +144,9 @@ label:focus {
 }
 
 #language {
-    background: #00b093;
-    color: #740864;
-    padding: 0 5px;
-    margin: 0 5px;
-    min-width: 16px;
+    background: inherit;
+    color: inherit;
+	padding-right: 20px;
 }
 
 #scratchpad {
