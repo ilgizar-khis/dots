@@ -61,6 +61,10 @@ button:hover {
     background-color: #eb4d4b;
 }
 
+#workspaces button.persistent {
+	color: #ababab;
+}
+
 #mode {
     background-color: #64727D;
 }
