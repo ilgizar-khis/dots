@@ -48,6 +48,8 @@ input type:keyboard {
   xkb_options "grp:win_space_toggle"
 }
 
+for_window [app_id="kitty"] title_format "%app_id : %title"
+
 exec_always $HOME/.config/waybar/run.sh
 exec_always $HOME/.config/mako/kb_layout.sh
 
