@@ -52,5 +52,6 @@ exec_always $HOME/.config/waybar/run.sh
 
 include $HOME/.config/sway/config.d/binds.conf
 include $HOME/.config/sway/config.d/look.conf
+include $HOME/.config/sway/config.d/ws.conf
 
 include /etc/sway/config.d/*
