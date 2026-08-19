@@ -46,11 +46,13 @@ button:hover {
     background: inherit;
 }
 
+
 /* you can set a style on hover for any module like this */
 #workspaces button {
+	all: initial;
     background-color: transparent;
     color: #ffffff;
-	padding-left: 5px;
+	padding-left: 20px;
 }
 
 #workspaces button.focused, #workspaces button.active {
@@ -134,4 +136,16 @@ label:focus {
 #scratchpad.empty {
 	background-color: transparent;
 	color: #ababab;
+}
+
+
+label:focus {
+    background-color: #000000;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
 }
