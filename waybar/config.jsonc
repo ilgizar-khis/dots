@@ -10,16 +10,16 @@
     // Choose the order of the modules
     "modules-left": [
         "sway/workspaces",
-        "sway/mode",
         "sway/scratchpad",
+        "sway/mode",
         "custom/media"
     ],
     "modules-center": [
         "clock"
     ],
     "modules-right": [
-        "pulseaudio",
         "sway/language",
+        "pulseaudio",
         "battery"
     ],
     // Modules configuration
