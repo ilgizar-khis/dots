@@ -52,17 +52,13 @@ button:hover {
 }
 
 #workspaces button {
-    padding: 0 5px;
+    padding: 0 0 0 20px;
     background-color: transparent;
     color: #ffffff;
 }
 
-#workspaces button:hover {
-    background: rgba(0, 0, 0, 0.2);
-}
-
 #workspaces button.focused, #workspaces button.active {
-    background-color: #64727D;
+    color: #ff6767;
 }
 
 #workspaces button.urgent {
