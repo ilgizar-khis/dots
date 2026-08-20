@@ -48,14 +48,10 @@ input type:keyboard {
   xkb_options "grp:win_space_toggle"
 }
 
-for_window [app_id="kitty"] title_format "%app_id : %title"
 
 exec_always --no-startup-id $HOME/.config/waybar/run.sh
 exec_always --no-startup-id $HOME/.config/mako/kb_layout.sh
 
-include $HOME/.config/sway/config.d/binds.conf
-include $HOME/.config/sway/config.d/look.conf
-include $HOME/.config/sway/config.d/ws.conf
-include $HOME/.config/sway/config.d/swayfx.conf
+include $HOME/.config/sway/config.d/*
 
 include /etc/sway/config.d/*
